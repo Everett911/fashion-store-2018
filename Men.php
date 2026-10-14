@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="Css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+<form id="form1" >
+    <div>
+     <div id="loginform" >
+            <header ID="pnlLogin" >
+                <table>
+                    <tr>
+                        <td  style="font-size:12px; font-family: Verdana,sans-serif;">Username:</td>
+                        <td ><input type="text" ID="tbUsername"  Height="15px" Width="150px"></input></td>
+                        <td  style="font-size:12px; font-family: Verdana,sans-serif;">Password:</td>
+                        <td ><input type="text" ID="tbPassword"  Height="15px" Width="150px"></input></td>
+                        <td ><input type="submit" ID="btnLogin" Value="Sign In"  Width="75px"/></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="right">
+                            <td ID="lblValidation" style="font-size:12px; font-family: Verdana,sans-serif;">Validition</td>
+                            <input type="checkbox" ID="cbKeepLogged" Value="Keep me logged in"/></td>
+                        <br/>
+                        <td style="padding: 0px 21px;"><input type="button" ID="lbtn_signup" value="Sign Up"><a href="SignUp.php">Sign Up</a></input></td>
+
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+
+            </header>
+            <header ID="pnlLoggedin" Visible="false">
+                        <table>
+                            <tr>
+                                <td align="right">
+                                    <input type="label" ID="lblAccFname"  Text="Name"></input>
+                                </td>
+                                <td><img ID="imgUserLogged"  Height="50px" Width="50px" src="/images/profilepic.png" /></td>
+                                <td>
+                                    <input type="button" ID="btnLogout"  Value="Sign out" Width="131px"  /><br />
+                                    <input type="button" ID="btnMyAcc"  Value="My Account" Width="131px" />
+                                </td>
+                            </tr>
+                        </table>
+            </header>
+        </div>
+         <div id="background">
+		<div id="page">
+			<div id="header">
+				<div id="logo">
+					<a href="index.html"><img src="Images/logo.png" alt="LOGO"></a>
+				</div>
+				<div id="navigation">
+					<ul id="primary">
+						<li>
+							<a href="Index.php">Home</a>
+						</li>
+						<li>
+							<a href="Men.php">Mens</a>
+						</li>
+						<li>
+							<a href="Women.php">Womens</a>
+						</li>
+						<li class="selected">
+							<a href="About.php">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+            <div id="contents">
+				<h4><span>Mens</span></h4>
+				<div id="stocks">
+					<ul>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.1.jpg" alt="Img"> <span class="icon"></span></a> <span>$70.00</span> Men GORE-TEX Mid-cut Trekking FEATHER 2 <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.2.jpg" alt="Img"> <span class="icon"></span></a> <span>Starting at: $65.00-$70.00</span> Men's GORE-TEX low cut ATTACK  <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.3.jpg" alt="Img"> <span class="icon"></span></a> <span>$65.00</span> Men’s GORE-TEX low cut ATTACK 4<em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.4.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> Men's GORE-TEX Mid-cut Trekking  <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.5.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span>Men's GORE-TEX Low Cut Tracking  <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.6.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span>GORE-TEX High-cut Trekking HIGHCLASSIC  <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+						<li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.7.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> Men's GORE-TEX Mid-cut Trekking NEO FEATHER <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+                        <li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.8.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> Outdoor Walking BL RENERGY <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+                        <li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.13.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> Men's Lifestyle Sneakers LINER <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+                        <li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.14.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> GORE-TEX High-cut Trekking HIGH CLASSIC 3 <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+                        <li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.15.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> GORE-TEX Casual SURROUND Sneakers MOVE 360 <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+                        <li>
+							<a href="product.html" class="preview" title="Preview"> <img src="images/1.16.jpg" alt="Img"> <span class="icon"></span></a> <span>$8.50</span> Men's GORE-TEX SURROND Outdoor Walking Shoes SHARK WIRE 360 <em>Quick Shop</em> <a href="checkout.php" class="btn-cart">Add to Cart</a> <a href="checkout.php" class="btn-wish">Add to Wishlist</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer">
+					<h4><span>Similar Items</span></h4>
+					<ul class="items">
+						<li>
+							<a href="product.html"> <img src="images/1.9.jpg" alt="Img"> <span>$8.50</span> Outdoor Walking Shoes KNIT RENERGY</a>
+						</li>
+						<li>
+							<a href="product.html"> <img src="images/1.10.jpg" alt="Img"> <span>$8.50</span>Men's GORE-TEX Outdoor Walking </a>
+						</li>
+						<li>
+							<a href="product.html"> <img src="images/1.11.jpg" alt="Img"> <span>$8.50</span> Men's lifestyle walking (FREE ARCH </a>
+						</li>
+						<li>
+							<a href="product.html"> <img src="images/1.12.jpg" alt="Img"> <span>$8.50</span> Men's winter padded sneakers MOVE WARM W</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="background">
+					<div id="connect">
+						<h5>Get Social With us!</h5>
+						<ul>
+							<li>
+								<a href="http://www.facebook.com" target="_blank" class="facebook"></a>
+							</li>
+							<li>
+								<a href="http://www.twitter.com" target="_blank" class="twitter"></a>
+							</li>
+							<li>
+								<a href="http://www.google.com" target="_blank" class="linkin"></a>
+							</li>
+						</ul>
+					</div>
+					<ul class="navigation">
+						<li>
+							<h5>Mens</h5>
+							<a href="mens.html">Sneakers</a> <a href="mens.html">Boots</a> <a href="mens.html">Winter socks</a> <a href="mens.html">Lace-ups</a>
+						</li>
+						<li>
+							<h5>Womens</h5>
+							<a href="womens.html">Sneakers</a> <a href="womens.html">Boots</a> <a href="womens.html">Winter socks</a> <a href="womens.html">Lace-ups</a>
+						</li>
+						<li class="latest">
+							<h5>New Arrivals</h5>
+							<a href="new.html">Cheverlyn Zespax</a> <a href="new.html">Alta Ulterior</a> <a href="new.html">Mikee</a> <a href="new.html">Jeeroks Copy</a>
+						</li>
+						<li class="latest">
+							<h5>On Sale Items</h5>
+							<a href="sale.html">Cheverlyn Zespax</a> <a href="sale.html">Alta Ulterior</a> <a href="sale.html">Mikee</a> <a href="sale.html">Jeeroks Copy</a>
+						</li>
+					</ul>
+					<p class="footnote">
+						&copy; Copyirght &copy; 2011. <a href="index.html">Company name</a> all rights reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</form>
+</body>
+</html>
