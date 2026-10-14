@@ -4,8 +4,6 @@ A clothing store website layout I built in January 2018 while studying for my
 Advanced Diploma in Information Technology at Informatics in Baguio City. It
 was one of my first websites.
 
-**View it live:** <https://everett911.github.io/fashion-store-2018/>
-
 > **Archived as-is.** I'm keeping this repository as a record of where I
 > started, not as an example of how I write code today. For my current work,
 > see my [portfolio](https://everett-lara.vercel.app/) and
@@ -29,7 +27,7 @@ Every page also has a login bar at the top.
 The pages were originally `.php` files but contained no PHP yet: I built the
 layout and forms first, and the server-side login and sign-up were never added.
 In 2026 I renamed them to `.html` (and the `Images` folder to `images`) so
-GitHub Pages can show them; the content is unchanged. Links to pages that were
+they open directly in a browser; the content is unchanged. Links to pages that were
 never built, such as product and checkout pages, still go nowhere. Some
 attributes (`ID`, `Visible`, `TextMode`) come from ASP.NET Web Forms, which we
 were also learning at the time.
@@ -49,4 +47,4 @@ passwords.
 
 ## Running it
 
-Open `index.html` in a browser, or visit the live link above.
+Download or clone the repository and open `index.html` in a browser.
